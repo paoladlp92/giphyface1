@@ -217,7 +217,7 @@
         .then(function(response) {
 
         // Saving the image_original_url property
-          var imageUrl = response.data.image_original_url;
+          var imageUrl = response.data.image.original.url;
 
           // Creating and storing an image tag
          
@@ -248,7 +248,7 @@
        .then(function(response) {
 
        // Saving the image_original_url property
-         var imageUrl = response.data.image_original_url;
+         var imageUrl = response.data.image.original.url;
 
          // Creating and storing an image tag
         
@@ -276,7 +276,7 @@
          
 
         // Saving the image_original_url property
-          var imageUrl = response.data.image_original_url;
+          var imageUrl = response.data.image.original.url;
 
           // Creating and storing an image tag
           var fourImage = $("<img>");
