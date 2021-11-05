@@ -183,7 +183,8 @@
          
 
         // Saving the image_original_url property
-          var imageUrl = response.data.image.original.url;
+         // var imageUrl = response.data.image.original.url;
+         var imageUrl = response.data.images.original.url;
 
           // Creating and storing an image tag
           var oneImage = $("<img>");
@@ -217,7 +218,8 @@
         .then(function(response) {
 
         // Saving the image_original_url property
-          var imageUrl = response.data.image.original.url;
+        //var imageUrl = response.data.image.original.url;
+          var imageUrl = response.data.images.original.url;
 
           // Creating and storing an image tag
          
